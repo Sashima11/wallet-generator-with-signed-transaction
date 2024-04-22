@@ -29,3 +29,20 @@ The server folder contains a node.js server using [express](https://expressjs.co
 The application should connect to the default server port (3042) automatically! 
 
 _Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.
+
+### How to use
+
+- First start `Client` and `Server` with above instructions.
+- Enter password in password field on the Wallet side, for example `qwer`
+- Click `Generate` button, there will be prompt with you private address which you can store safely. And you will be given 100 demo coins
+- Bellow you will se your `address` you will need this address for further use of app.
+- Copy that address to `Transfer` side
+- Generate new address, you can use same password or change it (i used same password for fast testing)
+- Copy new address on wallet side to check you balance, that field must have senders address. You will see your current balance.
+- Now on transfer side set `amount` to transfer, i used 10 demo coins.
+- Recipient we already set, now enter senders password.
+- Press `Sign transaction` button and you will get prompt with signiture.
+- Copy signiture to signiture field
+- Press `Transfer` button.
+- You will see that you balance decresed by 10 demo coins.
+- You can also check recipient address and confirm that coins were transfered to right address.

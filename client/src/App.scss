@@ -80,6 +80,13 @@ input {
   }
 }
 
+.divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid black;
+  width: 100%;
+}
+
 .transfer {
   display: flex;
   flex-direction: column;
